@@ -54,13 +54,6 @@ export default function Home() {
 
   return (
     <div>
-      <Image
-        src={LogoImage}
-        alt="Logo"
-        width={120}
-        height={40}
-        className="mx-auto"
-      />
       <div className="flex mt-2 mb-2 gap-4">
         <Button
           variant={chartType === 'bar' ? 'default' : 'outline'}
